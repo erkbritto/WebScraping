@@ -1,0 +1,23 @@
+Objetivo Principal:
+Automatizar o Web Scraping para baixar planilhas Excel sobre energia e sustentabilidade, tratar os dados e inseri-los em um banco de dados de forma dinâmica, criando tabelas organizadas.
+
+Problemas que a Automação Resolve:
+Processos manuais de extração e tratamento de dados são lentos, repetitivos e propensos a erros. A automação torna essas tarefas rápidas, escaláveis e de fácil uso, reduzindo a necessidade de intervenção manual.
+
+Público-Alvo:
+Estudantes, pesquisadores e profissionais de áreas relacionadas a energia e sustentabilidade.
+
+Restrições:
+
+Computadores com pouca memória RAM podem impactar o desempenho.
+
+É necessário ter as bibliotecas listadas no arquivo .MD e o MySQL Server 8.0 ou superior instalado.
+
+🔧 Funcionalidades Principais:
+Extração Automatizada: Uso do Selenium para baixar planilhas XLSX.
+
+Tratamento de Dados: Utilização do Pandas para limpeza e padronização.
+
+Armazenamento: Inserção dos dados em um banco MySQL para consultas estruturadas.
+
+A automação agiliza processos, reduz erros e organiza dados de forma eficiente.

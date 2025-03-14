@@ -1,0 +1,11 @@
+Projeto
+│── database/
+│   │── conexao/
+│   │   └── MySqlConnection.py
+│   │── consultas/
+│   │   └── insert.py
+│── download/
+│── .env
+│── .md
+│── main.py
+│── structure.txt

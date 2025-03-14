@@ -1,0 +1,8 @@
+selenium
+pandas
+mysql-connector-python
+python-dotenv
+webdriver-manager
+openpyxl
+tkinter
+colorama
