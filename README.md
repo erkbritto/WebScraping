@@ -33,7 +33,7 @@ WEBSCRAPING/
 ├── README.md # Documentação do projeto
 └── Diagrama WebScraping.drawio.png # Diagrama de fluxo do projeto
 
-Copy
+
 
 ## 🔧 Tecnologias Utilizadas
 
@@ -52,24 +52,24 @@ Copy
 
 ### 1️⃣ Clonar o repositório
 
-```bash
+```
 git clone https://github.com/seu-usuario/webscraping.git
 cd webscraping
 2️⃣ Criar e ativar um ambiente virtual (opcional)
-bash
-Copy
+
+
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 3️⃣ Instalar as dependências
-bash
-Copy
+
+
 pip install -r requirements.txt
 4️⃣ Configurar o arquivo .env
 Crie um arquivo .env na raiz do projeto e adicione as credenciais do banco de dados:
 
-plaintext
-Copy
+
+
 DB_HOST=seu_host
 DB_USER=seu_usuario
 DB_PASSWORD=sua_senha
@@ -77,8 +77,8 @@ DB_NAME=seu_banco_de_dados
 DB_PORT=sua_porta
 🚀 Como Executar o Projeto
 1. Executar a Interface Gráfica
-bash
-Copy
+
+
 python interface/app_interface.py
 2. Na interface, clique em "Iniciar Automação"
 O Selenium abrirá o navegador (em modo headless, se configurado), acessará o site e fará o download do arquivo XLSX.
